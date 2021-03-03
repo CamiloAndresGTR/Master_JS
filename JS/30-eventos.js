@@ -25,11 +25,11 @@ window.addEventListener("load", () =>{
     */
     //Evento mouseover
     boton.addEventListener("mouseover", function () {
-        boton.style.background = "green";
+        this.style.background = "green";
     });
     //Evento mouseout
     boton.addEventListener("mouseout", function () {
-        boton.style.background = "#ccc";
+        this.style.background = "#ccc";
     });
     
     //Focus
